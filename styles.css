@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@800&display=swap');
+
+* {
+  font-family: Manrope, sans-serif;
+  font-size: 20px;
+}
+
+:root {
+  --Dark-Blue: hsl(218, 23%, 16%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  
+  /* ### Neutral  */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: var(--Dark-Blue);
+}
+
+.card {
+  background-color: var(--Dark-Grayish-Blue);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 312px;
+  margin-top: 120px;
+  margin: 120px auto;
+  max-width: 342px;
+  min-width:290px ;
+}
+
+h3 {
+  color: var(--Neon-Green);
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advice {
+  color: var(--Light-Cyan);
+  font-weight: 800;
+  height: 150px;
+  padding: 0 10px;
+}
+
+.card .btn {
+  align-items: center;
+  background-color: var(--Neon-Green);
+  border-radius: 60px;
+  border: none;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  top: 33px;
+  width: 60px;
+  width: 60px;
+}
+
+.btn:hover {
+  box-shadow: 1px 7px 50px 6px var(--Neon-Green);
+  height: 67px;
+  width: 67px;
+}
+
+@media only screen and (min-width: 600px)  {
+  .card {
+    width: 543px;
+    padding: 0 40px;
+  }
+}
