@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Outfit:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Akaya Telivigala', cursive;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+}
+
+body,html{
+  background-color: var(--Light-gray);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+p{
+  font-weight: 400;
+}
+h2{
+  margin-bottom: 10px;
+}
+
+.container{
+ /*  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  height: 498px;
+  width: 324px;
+  background-color: var(--White);
+  border-radius: 20px;
+  margin: auto;
+  text-align: center;
+  padding: 16px;
+}
+
+.container .img-main{
+  border-radius: 20px;
+  width: 100%;
+  
+}
+
+.text{
+  margin: 20px;
+}
